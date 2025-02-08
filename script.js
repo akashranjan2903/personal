@@ -23,7 +23,7 @@ document.querySelector("#proposalBox h1").innerText = questions[currentQuestion]
 // Handle Yes button click
 document.getElementById("yesBtn").onclick = function () {
     // Show a romantic confirmation message and hide buttons
-    document.getElementById("proposalBox").innerHTML = "<h1>💖 You said Yes! 💍</h1>";
+    document.getElementById("proposalBox").innerHTML = "<h1>💍 You said Yes! 💖There’s no one else I’d want to spend forever with. 🌷Together, we are unstoppable, and our love is eternal.</h1>";
     document.getElementById("buttonsContainer").style.display = "none";
 
     // Show a celebration GIF
